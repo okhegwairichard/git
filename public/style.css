@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container > p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #24292f;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #444;
+}
+
+#message {
+    margin-top: 15px;
+    color: red;
+}
+
+.profile {
+    margin-top: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+#avatar {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+}
+
+#name {
+    margin-bottom: 5px;
+}
+
+#login {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#bio {
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px 0;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stats span {
+    color: #666;
+    font-size: 14px;
+}
+
+#githubLink {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background: #24292f;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+}

@@ -1,19 +1,16 @@
 const usernameInput = document.getElementById("username");
 const searchButton = document.getElementById("searchButton");
-
 const profile = document.getElementById("profile");
 const message = document.getElementById("message");
-
 const avatar = document.getElementById("avatar");
 const name = document.getElementById("name");
 const login = document.getElementById("login");
 const bio = document.getElementById("bio");
-
 const followers = document.getElementById("followers");
 const following = document.getElementById("following");
 const repos = document.getElementById("repos");
-
 const githubLink = document.getElementById("githubLink");
+
 searchButton.addEventListener("click", searchUser);
 async function searchUser() {
     const username = usernameInput.value.trim();

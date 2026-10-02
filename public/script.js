@@ -10,7 +10,6 @@ const followers = document.getElementById("followers");
 const following = document.getElementById("following");
 const repos = document.getElementById("repos");
 const githubLink = document.getElementById("githubLink");
-
 searchButton.addEventListener("click", searchUser);
 async function searchUser() {
     const username = usernameInput.value.trim();
